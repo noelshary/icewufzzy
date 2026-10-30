@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "icewfuzzy",
+  "version": "${version}",
+  "name": "Icewfuzzy",
+  "description": "Eine Anime-Tsundere-Begleiterin, die dir folgt und auf dich reagiert.",
+  "authors": ["du"],
+  "license": "All-Rights-Reserved",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["de.icewfuzzy.IcewfuzzyMod"],
+    "client": ["de.icewfuzzy.client.IcewfuzzyClient"]
+  },
+  "depends": { "fabricloader": ">=0.16.0", "minecraft": "~1.21.11", "java": ">=21", "fabric-api": "*" }
+}
